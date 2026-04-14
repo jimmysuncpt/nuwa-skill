@@ -153,7 +153,7 @@ npx skills add alchaincyf/nuwa-skill
 
 ## 已蒸馏人物
 
-女娲已蒸馏了14位人物 + 1个主题。每个都是独立的、可直接安装使用的Skill：
+女娲已蒸馏了15位人物 + 1个主题。每个都是独立的、可直接安装使用的Skill：
 
 ### 人物Skill
 
@@ -172,6 +172,7 @@ npx skills add alchaincyf/nuwa-skill
 | **费曼** | 学习/教学/科学思维 | [feynman-skill](https://github.com/alchaincyf/feynman-skill) | `npx skills add alchaincyf/feynman-skill` |
 | **纳瓦尔** | 财富/杠杆/人生哲学 | [naval-skill](https://github.com/alchaincyf/naval-skill) | `npx skills add alchaincyf/naval-skill` |
 | **塔勒布** | 风险/反脆弱/不确定性 | [taleb-skill](https://github.com/alchaincyf/taleb-skill) | `npx skills add alchaincyf/taleb-skill` |
+| **刘润** | 商业分析/底层逻辑/方法论/知识付费 | [liurun-skill](https://github.com/jimmysuncpt/liurun-skill) | `npx skills add jimmysuncpt/liurun-skill` |
 | **张雪峰** | 教育/职业规划/阶层流动 | [zhangxuefeng-skill](https://github.com/alchaincyf/zhangxuefeng-skill) | `npx skills add alchaincyf/zhangxuefeng-skill` |
 
 ### 主题Skill
@@ -230,7 +231,7 @@ nuwa-skill/
 ├── references/
 │   ├── extraction-framework.md   # 提炼方法论（想深入了解看这个）
 │   └── skill-template.md         # 生成Skill的模板
-└── examples/                          # 14个人物 + 1个主题，含完整调研数据
+└── examples/                          # 15个人物 + 1个主题，含完整调研数据
     ├── steve-jobs-perspective/        # ⭐ 乔布斯（含实战对话记录）
     ├── paul-graham-perspective/       # Paul Graham
     ├── zhang-yiming-perspective/      # 张一鸣
@@ -244,6 +245,7 @@ nuwa-skill/
     ├── feynman-perspective/           # 费曼
     ├── naval-perspective/             # Naval Ravikant
     ├── taleb-perspective/             # 塔勒布
+    ├── liurun-perspective/            # 刘润
     ├── zhangxuefeng-perspective/      # 张雪峰
     └── x-mastery-mentor/             # X导师（主题Skill）
 ```
@@ -315,6 +317,6 @@ Not role-playing. Cognitive architecture extraction.
 
 **How it works**: Input a name → 6 parallel research agents → 40+ primary sources → triple-verified mental models → quality-validated SKILL.md
 
-**14 person skills + 1 topic skill included** — all with full research data. The Jobs example includes a complete multi-turn conversation demo.
+**15 person skills + 1 topic skill included** — all with full research data. The Jobs example includes a complete multi-turn conversation demo.
 
 See the Chinese README above for live examples and methodology.
